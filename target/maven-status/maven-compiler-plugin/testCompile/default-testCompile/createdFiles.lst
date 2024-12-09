@@ -1,0 +1,5 @@
+com\quiz\demo\repository\QuizRepositoryTest.class
+com\quiz\demo\DemoApplicationTests.class
+com\quiz\demo\model\QuizModelTest.class
+com\quiz\demo\repository\UserRepositoryTest.class
+com\quiz\demo\repository\SessionRepositoryTest.class
