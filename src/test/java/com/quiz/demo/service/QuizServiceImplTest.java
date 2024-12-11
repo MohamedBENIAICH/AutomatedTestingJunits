@@ -74,7 +74,7 @@ public class QuizServiceImplTest {
 
     @Test
     void testDeleteQuiz() {
-        Long quizId = 1L;
+        Long quizId = ;
 
         // Call the service method
         String response = quizService.deleteQuiz(quizId);
