@@ -54,6 +54,7 @@ public class UserRepositoryTest {
         User foundUser = userRepository.findByEmailAndPassword("mohamedbeniaich00@gmail.com", "osjfbjd");
 
         // then
+        // Test
         assertThat(foundUser).isNotNull();
         assertThat(foundUser.getEmail()).isEqualTo("mohamedbeniaich00@gmail.com");
         assertThat(foundUser.getPassword()).isEqualTo("osjfbjd");
