@@ -74,7 +74,7 @@ public class QuizServiceImplTest {
 
     @Test
     void testDeleteQuiz() {
-        Long quizId = ;
+        Long quizId = 1L;
 
         // Call the service method
         String response = quizService.deleteQuiz(quizId);
@@ -83,7 +83,7 @@ public class QuizServiceImplTest {
         assertEquals("Quiz deleted successfully", response);
 
         // Verify that the repository's deleteById method was called
-        verify(quizRepository, times(1)).deleteById(quizId);
+        verify(quizRepository, times(1)).deleteById(quzId);
     }
 
     @Test
