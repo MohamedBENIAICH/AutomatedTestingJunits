@@ -83,7 +83,7 @@ public class QuizServiceImplTest {
         assertEquals("Quiz deleted successfully", response);
 
         // Verify that the repository's deleteById method was called
-        verify(quizRepository, times(1)).deleteById(quzId);
+        verify(quizRepository, times(1)).deleteById(quizId);
     }
 
     @Test
